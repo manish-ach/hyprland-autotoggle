@@ -31,6 +31,7 @@ chmod +x ~/.config/hypr/scripts/nwg-dock-controller.sh
 ```
 
 ### 5. setup the autostart
+In the hyprland.conf (or autostart.conf) file generally under autostart section write
 ```bash
 exec-once = ~/.config/hypr/scripts/nwg-dock-controller.sh
 ```
