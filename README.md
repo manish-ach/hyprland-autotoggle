@@ -5,9 +5,16 @@
 
 This script, `nwg-dock-controller.sh`, specifically toggles the visibility of `nwg-dock-hyprland` to show it only when the active workspace has **no open windows**. It automatically hides the dock when a window exists and restores it when the workspace is empty.
 
+It also uses socat to register workspace switches to avoid the functionality of the toggle due to workspace updates. The guide assumes you are on arch using the latest supported version of hyprland. For other distros use your distro specific package manager. The script is targeted for hyprland so it likely wont work on other WM but even if it somehow works it still is not supported for them outside hyprland.
+
 ---
 
 ## 🛠️ Setup Instructions
+
+### 0. Install dependencies
+```bash
+sudo pacman -S socat
+```
 
 ### 1. Installation
 Clone or copy the script to your Hyprland configuration directory:
