@@ -11,22 +11,22 @@ This script, `nwg-dock-controller.sh`, specifically toggles the visibility of `n
 
 ### 1. Installation
 Clone or copy the script to your Hyprland configuration directory:
-`bash
-git clone git@github.com:manish-ach/hyprland-autotoggle.git`
+bash
+git clone git@github.com:manish-ach/hyprland-autotoggle.git
 
 ### 2. Create the scripts dir inside hypr
-`bash
-mkdir -p ~/.config/hypr/scripts`
+bash
+mkdir -p ~/.config/hypr/scripts
 
 ### 3. Copy or move the script to the script dir 
-`bash
-cp nwg-dock-controller.sh ~/.config/hypr/scripts/`
+bash
+cp nwg-dock-controller.sh ~/.config/hypr/scripts/
 
 ### 4. Make the script executable
-`bash
-chmod +x ~/.config/hypr/scripts/nwg-dock-controller.sh`
+bash
+chmod +x ~/.config/hypr/scripts/nwg-dock-controller.sh
 
 ### 5. setup the autostart
-`bash
-exec-once = ~/.config/hypr/scripts/nwg-dock-controller.sh`
+bash
+exec-once = ~/.config/hypr/scripts/nwg-dock-controller.sh
 
